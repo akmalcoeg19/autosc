@@ -81,11 +81,13 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "================-Autoscript Premium-===============" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo "              ### AUTOSCRIPT PREMIUM ###           " | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "---------------------------------------------------" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
-echo "---------------------------------------------------" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442"  | tee -a log-install.txt
 echo "   - Stunnel4                : 789, 777"  | tee -a log-install.txt
@@ -105,9 +107,9 @@ echo "   - V2RAY Vmess None TLS    : 80"  | tee -a log-install.txt
 echo "   - V2RAY Vless TLS         : 2083"  | tee -a log-install.txt
 echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 2087"  | tee -a log-install.txt
-echo "---------------------------------------------------" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "---------------------------------------------------" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
@@ -121,13 +123,15 @@ echo "   - Auto Delete Expired Account" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
-echo "---------------------------------------------------" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo "   >>> Developer Main"  | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "   - Dev/Main                : Zanxx"  | tee -a log-install.txt
 echo "   - Telegram                : t.me/spacedataxxx"  | tee -a log-install.txt
 echo "   - Instagram               : @spacedatax"  | tee -a log-install.txt
 echo "   - Whatsapp                : 0881023962263"  | tee -a log-install.txt
 echo "   - Website                 : https://zanxx.xyz" | tee -a log-install.txt
-echo "==============Script Created by Zanxx===============" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
