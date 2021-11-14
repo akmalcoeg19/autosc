@@ -93,6 +93,6 @@ AllowedIPs = $CLIENT_ADDRESS/32" >>"/etc/wireguard/$SERVER_WG_NIC.conf"
 	echo -e "Wireguard	: http://$MYIP:81/$CLIENT_NAME.conf"
 	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo -e "Expired On      : $exp"
-	echo -e "Script by @spacedataxxx"
+	echo -e "Autoscript by @spacedataxxx"
 	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	rm -f /root/wg0-client-$CLIENT_NAME.conf
