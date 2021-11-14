@@ -5,7 +5,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 clear
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
-echo -e "           \e[1;31m\e[1;31m═[\e[mSSR & SS Account\e[1;31m]═\e[m" 
+echo -e "           \e[1;31m\e[1;31m═[\e[mPanel SSR & SS\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
 echo -e " 1\e[1;33m)\e[m  Create SSR Account"
 echo -e " 2\e[1;33m)\e[m  Create Shadowsocks Account"
