@@ -6,9 +6,9 @@ MYIP=$(wget -qO- ifconfig.me/ip);
 echo "Checking VPS"
 clear
 echo -e ""
-echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e[m" | lolcat
+echo -e "\e[32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e "          \e[1;31m\e[1;31m═[\e[mPanel SSH-WS & OpenVPN\e[1;31m]═\e[m" 
-echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e[m" | lolcat
+echo -e "\e[32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e " 1\e[1;33m)\e[m  Create SSH & OpenVPN Account"
 echo -e " 2\e[1;33m)\e[m  Trial Account SSH & OpenVPN"
 echo -e " 3\e[1;33m)\e[m  Renew SSH & OpenVPN Account"
@@ -20,9 +20,9 @@ echo -e " 8\e[1;33m)\e[m  Set up Autokill SSH"
 echo -e " 9\e[1;33m)\e[m  Cek Users Who Do Multi Login SSH"
 echo -e " 10\e[1;33m)\e[m Restart All Service"
 echo -e ""
-echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e[m" | lolcat
+echo -e "\e[32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e " x)   MENU"
-echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e[m" | lolcat
+echo -e "\e[32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 read -p "     Please Input Number  [1-10 or x] :  "  ssh
 echo -e ""
