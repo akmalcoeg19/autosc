@@ -69,7 +69,10 @@ systemctl restart v2ray
 systemctl restart v2ray@none
 service cron restart
 clear
-echo -e "==========-V2RAY/VMESS-=========="
+echo -e ""
+echo -e "================================="
+echo -e " V2RAY/VMESS Account Information "
+echo -e "================================="
 echo -e "Remarks        : ${user}"
 echo -e "Domain         : ${domain}"
 echo -e "port TLS       : ${tls}"
@@ -86,6 +89,6 @@ echo -e "link TLS       : ${vmesslink1}"
 echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
-echo -e ""
-echo -e "Script By @spacedataxxx"
+echo -e "Script by @spacedataxxx"
+echo -e "================================="
 echo -e ""
