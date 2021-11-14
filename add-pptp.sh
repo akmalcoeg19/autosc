@@ -38,14 +38,12 @@ echo -e "### $VPN_USER $exp">>"/var/lib/premium-script/data-user-pptp"
 cat <<EOF
 
 ================================
-PPTP VPN Account Information
+        PPTP VPN Account
 ================================
 Server IP    : $PUBLIC_IP
 Username     : $VPN_USER
 Password     : $VPN_PASSWORD
-Created      : $created
+================================
 Expired      : $exp
-================================
 Script by @spacedataxxx
-================================
 EOF
