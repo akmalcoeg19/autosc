@@ -86,12 +86,13 @@ AllowedIPs = $CLIENT_ADDRESS/32" >>"/etc/wireguard/$SERVER_WG_NIC.conf"
 	echo Generate PresharedKey
 	clear
 	echo -e ""
-	echo -e "==============================="
+        echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo -e "       Wireguard Account       "
-	echo -e "==============================="
+	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo -e "Domain    	: ${domain}"
 	echo -e "Wireguard	: http://$MYIP:81/$CLIENT_NAME.conf"
-	echo -e "==============================="
+	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo -e "Expired On      : $exp"
 	echo -e "Script by @spacedataxxx"
+	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	rm -f /root/wg0-client-$CLIENT_NAME.conf
