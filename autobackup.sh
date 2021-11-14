@@ -48,9 +48,9 @@ echo " Autobackup Has Been Stopped"
 exit 0
 }
 clear
-echo -e " =============================="
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "         Autobackup Data       "
-echo -e " =============================="
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e " Status $sts"
 echo -e "  1. Start Autobackup"
 echo -e "  2. Stop Autobackup"
