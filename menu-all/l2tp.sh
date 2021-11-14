@@ -7,7 +7,7 @@ echo "Checking VPS"
 clear
 echo -e ""
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
-echo -e "         \e[1;31m\e[1;31m═[\e[mL2TP & PPTP Account\e[1;31m]═\e[m" 
+echo -e "         \e[1;31m\e[1;31m═[\e[mPanel L2TP & PPTP\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
 echo -e " 1\e[1;33m)\e[m  Creating L2TP Account"
 echo -e " 2\e[1;33m)\e[m  Create Account PPTP"
