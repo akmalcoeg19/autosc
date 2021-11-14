@@ -36,14 +36,14 @@ exp="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
 created=`date -d "0 days" +"%d-%m-%Y"`
 echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
 echo -e ""
-echo -e "==============================="
-echo -e "Informasi SSH & OpenVPN"
-echo -e "==============================="
+echo -e "=================================="
+echo -e " SSH-WS & OpenVPN Acc Information "
+echo -e "=================================="
 echo -e "IP/Host       : $IP"
 echo -e "Domain        : ${domain}"
 echo -e "Username      : $Login "
 echo -e "Password      : $Pass"
-echo -e "==============================="
+echo -e "================================="
 echo -e "OpenSSH       : 22"
 echo -e "SSL/TLS       : 789, 777"
 echo -e "Dropbear      : 8181, 109, 143"
@@ -55,37 +55,30 @@ echo -e "Port OVPN TCP : 1194"
 echo -e "Port OVPN UDP : 2200"
 echo -e "Port OVPN SSL : 442"
 echo -e "BadVpn        : 7100-7300"
-echo -e ""
+echo -e "================================="
+echo -e "           Payload WS            "
+echo -e "================================="
+echo -e "GET / HTTP/1.1[crlf]Host: ${domain}[crlf]Upgrade: websocket[crlf][crlf]"
 echo -e "==============================="
-echo -e ""
-echo -e "PAYLOAD WS    : GET / HTTP/1.1[crlf]Host: ${domain}[crlf]Upgrade: websocket[crlf][crlf]"
-echo -e ""
-echo -e "bug:port@$Login:$Pass"
-echo -e ""
+echo -e "      Link Download OVPN       "
 echo -e "==============================="
-echo -e "Link Download Ovpn"
-echo -e "==============================="
-echo -e "http://${domain}:81/client-tcp-$ovpn.ovpn"
-echo -e ""
-echo -e "http://${domain}:81/client-udp-$ovpn2.ovpn"
-echo -e ""
-echo -e "http://${domain}:81/client-tcp-ssl.ovpn"
-echo -e ""
+echo -e "OpenVPN TCP : http://${domain}:81/client-tcp-$ovpn.ovpn"
+echo -e "OpenVPN UDP : http://${domain}:81/client-udp-$ovpn2.ovpn"
+echo -e "OpenVPN SSL : http://${domain}:81/client-tcp-ssl.ovpn"
 echo -e "==============================="
 echo -e "Created      : $created"
 echo -e "Expired      : $exp"
 echo -e "==============================="
+echo -e "Script by Zanxx"
+echo -e "==============================="
 echo -e ""
 echo ""
 echo ""
-echo "███████  █████  ███    ██ ██   ██ ██   ██ 
-   ███  ██   ██ ████   ██  ██ ██   ██ ██  
-  ███   ███████ ██ ██  ██   ███     ███   
- ███    ██   ██ ██  ██ ██  ██ ██   ██ ██  
-███████ ██   ██ ██   ████ ██   ██ ██   ██ 
-                                          
-                                          " | lolcat
-echo ""
-echo ""
+echo "    ______                         _____ _                      
+   |___  /                        /  ___| |                     
+      / /  __ _ _ __ __  ____  __ \ `--.| |_ ___  _ __ ___  ___ 
+     / /  / _` | '_ \\ \/ /\ \/ /  `--. \ __/ _ \| '__/ _ \/ __|
+   ./ /__| (_| | | | |>  <  >  <  /\__/ / || (_) | | |  __/\__ \
+   \_____/\__,_|_| |_/_/\_\/_/\_\ \____/ \__\___/|_|  \___||___/ " | lolcat
 echo ""
 echo ""
