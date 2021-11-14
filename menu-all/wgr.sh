@@ -7,7 +7,7 @@ echo "Checking VPS"
 clear
 echo -e""
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
-echo -e "              \e[1;31m\e[1;31m═[\e[mWireguard\e[1;31m]═\e[m" 
+echo -e "              \e[1;31m\e[1;31m═[\e[mPanel Wireguard\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
 echo -e " 1\e[1;33m)\e[m  Create Wireguard Account"
 echo -e " 2\e[1;33m)\e[m  Delete Wireguard Account"
