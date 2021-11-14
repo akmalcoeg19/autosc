@@ -43,6 +43,6 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 echo -e "link           : ${trojanlink}"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "Expired        : $exp"
-echo -e "Script by @spacedataxxx"
+echo -e "Autoscript by @spacedataxxx"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e ""
