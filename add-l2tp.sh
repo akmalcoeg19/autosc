@@ -56,6 +56,6 @@ Username     : $VPN_USER
 Password     : $VPN_PASSWORD
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Expired      : $exp
-Script by @spacedataxxx
+Autoscript by @spacedataxxx
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
