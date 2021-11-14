@@ -43,9 +43,9 @@ PPTP VPN
 Server IP    : $PUBLIC_IP
 Username     : $VPN_USER
 Password     : $VPN_PASSWORD
-Created         : $created
-Expired         : $exp
+Created      : $created
+Expired      : $exp
 
-Script By @spacedataxxx
-=================================
+Script by @spacedataxxx
+================================
 EOF
