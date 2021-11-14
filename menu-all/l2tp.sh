@@ -6,9 +6,9 @@ MYIP=$(wget -qO- ifconfig.me/ip);
 echo "Checking VPS"
 clear
 echo -e ""
-echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
+echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e "         \e[1;31m\e[1;31m═[\e[mPanel L2TP & PPTP\e[1;31m]═\e[m" 
-echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
+echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e " 1\e[1;33m)\e[m  Creating L2TP Account"
 echo -e " 2\e[1;33m)\e[m  Create Account PPTP"
 echo -e " 3\e[1;33m)\e[m  Deleting L2TP Account"
@@ -17,9 +17,9 @@ echo -e " 5\e[1;33m)\e[m  Check User Login PPTP"
 echo -e " 6\e[1;33m)\e[m  Renew L2TP Account"
 echo -e " 7\e[1;33m)\e[m  Renew PPTP Account"
 echo -e ""
-echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
+echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e " x)   MENU"
-echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
+echo -e "\e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 read -p "     Please Input Number  [1-7 or x] :  "  l2tp
 echo -e ""
