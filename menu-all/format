@@ -7,7 +7,7 @@ echo "Checking VPS"
 clear
 echo -e ""
 echo -e "\e[1;32m═════════════════════════════════════════" | lolcat
-echo -e "          \e[1;31m\e[1;31m═[\e[mBengkel VpS\e[1;31m]═\e[m" 
+echo -e "          \e[1;31m\e[1;31m═[\e[mManage VPS\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═════════════════════════════════════════" | lolcat
 echo -e " 1\e[1;33m)\e[m  Block Torrent"
 echo -e " 2\e[1;33m)\e[m  Edit Banner Messege"
