@@ -29,8 +29,10 @@ DOMAIN=$(cat /etc/v2ray/domain)
 	echo -e "   \e[032;1mTime     :\e[0m $WKT"
 	echo -e "   \e[032;1mIP VPS   :\e[0m $IPVPS"
 	echo -e "   \e[032;1mDomain   :\e[0m $DOMAIN"
-echo -e  ""
-echo -e  "   -------------------------MENU OPTIONS------------------------" | lolcat
+echo -e   ""
+echo -e   "  \e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e" | lolcat
+echo -e   "                             MENU OPTION\e" | lolcat 
+echo -e   "  \e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e" | lolcat
 echo -e   "   1\e[1;33m)\e[m Panel SSH-WS & OpenVPN "
 echo -e   "   2\e[1;33m)\e[m Panel Wireguard "
 echo -e   "   3\e[1;33m)\e[m Panel L2TP & PPTP "
@@ -39,9 +41,9 @@ echo -e   "   5\e[1;33m)\e[m Panel SSR & SS "
 echo -e   "   6\e[1;33m)\e[m Panel Vmess"
 echo -e   "   7\e[1;33m)\e[m Panel Vless"
 echo -e   "   8\e[1;33m)\e[m Panel Trojan"
-echo -e   "  \e[1;32m--------------------------------------------------------------\e" | lolcat
+echo -e   "  \e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e" | lolcat
 echo -e   "                             SYSTEM MENU\e" | lolcat 
-echo -e   "  \e[1;32m--------------------------------------------------------------\e" | lolcat
+echo -e   "  \e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e" | lolcat
 echo -e   "   9\e[1;33m)\e[m   Add or Change Subdomain Host For VPS"
 echo -e   "   10\e[1;33m)\e[m  Renew Certificate V2ray"
 echo -e   "   11\e[1;33m)\e[m  Change Port All Service"
@@ -64,9 +66,9 @@ echo -e   "   27\e[1;33m)\e[m  Setup Auto Reboot"
 echo -e   "   28\e[1;33m)\e[m  Checking Running Service"
 echo -e   "   29\e[1;33m)\e[m  Manage VPS"
 echo -e   "   30\e[1;33m)\e[m  Install DDoS Protection ( WAJIB )"
-echo -e   "  \e[1;32m--------------------------------------------------------------\e" | lolcat
+echo -e   "  \e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e" | lolcat
 echo -e   "   x)   Exit" | lolcat
-echo -e   "  \e[1;32m--------------------------------------------------------------\e" | lolcat
+echo -e   "  \e[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\e" | lolcat
 echo -e   ""
 read -p "     Select From Options [1-30 or x] :  " menu
 echo -e   ""
