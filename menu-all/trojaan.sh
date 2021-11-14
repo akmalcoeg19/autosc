@@ -6,7 +6,7 @@ MYIP=$(wget -qO- ifconfig.me/ip);
 echo "Checking VPS"
 clear
 echo -e "\e[32m════════════════════════════════════════" | lolcat
-echo -e "             ═══[Trojan]═══"
+echo -e "               ═══[Panel Trojan]═══"
 echo -e "\e[32m════════════════════════════════════════" | lolcat
 echo -e " 1)  Create Trojan Account"
 echo -e " 2)  Deleting Trojan Account"
