@@ -57,7 +57,7 @@ for((i=1; i<=$totalaccounts; i++ ))
        userdel $username
        fi
 done
-echo "-------------------------------------------"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo " The script has been successfully executed "
-echo "-------------------------------------------"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo " "
