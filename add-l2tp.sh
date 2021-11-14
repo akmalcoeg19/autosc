@@ -47,16 +47,15 @@ chmod 600 /etc/ppp/chap-secrets* /etc/ipsec.d/passwd*
 echo -e "### $VPN_USER $exp">>"/var/lib/premium-script/data-user-l2tp"
 cat <<EOF
 ====================================
-L2TP/IPsec VPN Account Information
+       L2TP/IPsec VPN Account
 ====================================
 Domain       : ${domain}
 Server IP    : $PUBLIC_IP
 IPsec PSK    : myvpn
 Username     : $VPN_USER
 Password     : $VPN_PASSWORD
-Created      : $created
-Expired      : $exp
 ====================================
+Expired      : $exp
 Script by @spacedataxxx
 ====================================
 EOF
