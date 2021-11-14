@@ -11,9 +11,9 @@ do
 	clear
 	echo " "
 	echo " "
-	echo "-----------------------------------------"
+	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo "            Edit Server Message       "
-	echo "-----------------------------------------"
+	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo "In order to work this changing server message"
 	echo "A reboot is required to do"
 	echo " "
