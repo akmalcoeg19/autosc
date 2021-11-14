@@ -46,7 +46,7 @@ clear
 chmod 600 /etc/ppp/chap-secrets* /etc/ipsec.d/passwd*
 echo -e "### $VPN_USER $exp">>"/var/lib/premium-script/data-user-l2tp"
 cat <<EOF
-L2TP/IPSEC VPN Account Information
+L2TP/IPsec VPN Account Information
 ====================================
 Domain       : ${domain}
 Server IP    : $PUBLIC_IP
