@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By geo"
+echo "Script By Zanxx"
 clear
 IP=$(wget -qO- icanhazip.com);
 sstp="$(cat ~/log-install.txt | grep -i SSTP | cut -d: -f2|sed 's/ //g')"
@@ -29,16 +29,16 @@ clear
 cat <<EOF
 
 ================================
-SSTP VPN
-
+SSTP VPN Account Information
+================================
 Server IP     : $IP
 Username      : $user
 Password      : $pass
 Port          : $sstp
 Cert          : http://$IP:81/server.crt
-Created  : $created
-Expired   : $exp
-
+Created       : $created
+Expired       : $exp
+================================
 echo -e "Script By @spacedataxxx
 ================================
 EOF
