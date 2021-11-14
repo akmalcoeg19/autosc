@@ -54,7 +54,7 @@ echo -e " =============================="
 echo -e " Status $sts"
 echo -e "  1. Start Autobackup"
 echo -e "  2. Stop Autobackup"
-echo -e " Press CTRL+C to return"
+echo -e "  Press CTRL+C to return"
 read -rp " Please Enter The Correct Number : " -e num
 if [[ "$num" = "1" ]]; then
 start
