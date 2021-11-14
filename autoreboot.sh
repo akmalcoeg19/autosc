@@ -6,9 +6,9 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
 clear
 echo -e ""
-echo -e "------------------------------------" | lolcat
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e "             AUTO REBOOT"
-echo -e "------------------------------------" | lolcat
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 echo -e "    1)  Auto Reboot 30 minutes"
 echo -e "    2)  Auto Reboot 1 hours"
@@ -17,9 +17,9 @@ echo -e "    4)  Auto Reboot 1 days"
 echo -e "    5)  Auto Reboot 1 weeks"
 echo -e "    6)  Auto Reboot 1 months"
 echo -e ""
-echo -e "------------------------------------" | lolcat
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e "    x)   MENU"
-echo -e "------------------------------------" | lolcat
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 read -p "     Please Input Number  [1-6 or x] :  "  autoreboot
 echo -e ""
