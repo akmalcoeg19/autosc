@@ -6,7 +6,7 @@ MYIP=$(wget -qO- ifconfig.me/ip);
 echo "Checking VPS"
 clear
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
-echo -e "           \e[1;31m\e[1;31m═[\e[mSSTP Account\e[1;31m]═\e[m" 
+echo -e "           \e[1;31m\e[1;31m═[\e[mPanel SSTP\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
 echo -e " 1\e[1;33m)\e[m  Create Account SSTP"
 echo -e " 2\e[1;33m)\e[m  Delete SSTP Account"
