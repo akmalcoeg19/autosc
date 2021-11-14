@@ -133,6 +133,7 @@ echo "   - Whatsapp                : 0881023962263"  | tee -a log-install.txt
 echo "   - Website                 : https://zanxx.xyz" | tee -a log-install.txt
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo ""
+echo " Thanks For Using Our Service"
 echo " Reboot 10 Sec"
 sleep 10
 rm -f setup.sh
