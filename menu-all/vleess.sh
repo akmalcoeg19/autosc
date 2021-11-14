@@ -6,7 +6,7 @@ MYIP=$(wget -qO- ifconfig.me/ip);
 echo "Checking VPS"
 clear
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
-echo -e "             \e[1;31m\e[1;31m═[\e[mV2Ray Vless\e[1;31m]═\e[m" 
+echo -e "             \e[1;31m\e[1;31m═[\e[mPanel Vless\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════" | lolcat
 echo -e " 1\e[1;33m)\e[m  Create Vless Websocket Account"
 echo -e " 2\e[1;33m)\e[m  Deleting Vless Websocket Account"
