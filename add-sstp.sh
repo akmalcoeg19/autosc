@@ -28,16 +28,16 @@ echo -e "### $user $exp">>"/var/lib/premium-script/data-user-sstp"
 clear
 cat <<EOF
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        SSTP VPN Account
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━
+  SSTP VPN Account
+━━━━━━━━━━━━━━━━━━━━
 Server IP     : $IP
 Username      : $user
 Password      : $pass
 Port          : $sstp
 Cert          : http://$IP:81/server.crt
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━
 Expired       : $exp
 Autoscript By @spacedataxxx
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━
 EOF
