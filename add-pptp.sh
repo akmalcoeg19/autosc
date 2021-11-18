@@ -37,14 +37,14 @@ chmod 600 /etc/ppp/chap-secrets*
 echo -e "### $VPN_USER $exp">>"/var/lib/premium-script/data-user-pptp"
 cat <<EOF
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        PPTP VPN Account
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━
+  PPTP VPN Account
+━━━━━━━━━━━━━━━━━━━━
 Server IP    : $PUBLIC_IP
 Username     : $VPN_USER
 Password     : $VPN_PASSWORD
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━
 Expired      : $exp
 Autoscript by @spacedataxxx
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━
 EOF
