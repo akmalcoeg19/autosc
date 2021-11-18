@@ -1,5 +1,5 @@
 #!/bin/bash
-# Created by http://halucok.me
+# Created by Zanxx
 # Remodified by Zanxx
 
 if [[ $USER != 'root' ]]; then
@@ -11,15 +11,15 @@ do
 	clear
 	echo " "
 	echo " "
-	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-	echo "            Edit Server Message        "
-	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	echo "     Edit Server Message     "
+	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo "In order to work this changing server message"
 	echo "A reboot is required to do"
 	echo " "
-	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-	echo "                 MENU"
-	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	echo "              MENU"
+	echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	echo "1. Edit Server Message"
 	echo "2. Reboot Now"
 	echo "3. Go Back"
