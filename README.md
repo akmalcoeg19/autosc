@@ -1,5 +1,5 @@
 <p align="center">
-PREMIUM SCRIPT AUTOINSTALL VPN
+SCRIPT AUTOINSTALL VPN
 </p>
   
 <p align="center">
@@ -24,12 +24,11 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 
 ## Donate
 - [Saweria](https://saweria.co/akmalcoeg19)
-- Dana : 082231730723
-- Ovo : 082231730723
-- Gopay : 082231730723
-- LinkAja : 082231730723
+- Dana : 0881023962263
+- Ovo : 0881023962263
+- Gopay : 0881023962263
+- LinkAja : 0881023962263
 
 # Thanks to
 * [`Zanxx`](https://t.me/spacedataxxx)
-* [`Zanxx`](https://wa.me/0881023962263)
 
